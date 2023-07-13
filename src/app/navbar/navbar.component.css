@@ -1,0 +1,29 @@
+nav ul li{
+    display: inline-block;
+    background-color: red;
+    font-size: large;
+ }
+ nav ul li:not(:last-child)::after{
+     content: "";
+     display:inline-block;
+     width: 5px;
+     height: 20%;
+     margin: 0 24px;
+     vertical-align: middle;
+  
+ }
+ nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+ }
+ h2{
+    text-align: center;
+    color: red;
+
+ }
+ .img2{
+    width: 75px;
+    height: 75px;
+    margin-left: 30%;
+ }

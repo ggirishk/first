@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+    padding: 10px 35px;
+    text-align: justify;
+    
+}
+.para{
+    text-align: center;
+}
+.hed{
+    text-align: center;
+    font-size: 25px;
+    color: green;
+}
+.head{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+pre{
+    text-align: center;
+
+   
+}

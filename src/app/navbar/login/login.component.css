@@ -1,0 +1,41 @@
+* {
+    background-color:skyblue;
+    text-align: center;
+  }
+  
+  .login-page {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: green;
+    margin-bottom: 15px;
+  }
+  .ff{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  

@@ -1,0 +1,35 @@
+
+ .img1{
+     margin-left: 20%;
+ }
+ h3{
+     text-align: center;
+     color: red;
+ }
+ table{
+     border-collapse: collapse;
+     width: 60%;
+ }
+ td, th{
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
+ tr:nth-child(even){
+     background-color: #dddddd;
+ }
+ marquee{
+     font-size: 250%;
+     color: red;
+     animation-delay: 5s;
+ }
+ .avail{
+    background-color: red;
+    text-align: center;
+ }
+ div a{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+ }
+ 

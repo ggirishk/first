@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration</h1>
+        <form  (ngSubmit)="submit()">
+            <div class="form-group">
+                <label for="firstname">Firstname</label><br>
+                <input #name="ngModel" required maxlength="30" type="text" name="firstname" class="form-control" ngModel placeholder="Firstname">
+                <div *ngIf="name.touched && name.invalid" class="alert alert-danger">Invalid!!!</div>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="last">Lastname</label><br>
+                <input required maxlength="30" type="text" name="lastname" class="form-control" ngModel placeholder="Lastname">
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input required type="text" name="email" class="form-control" ngModel placeholder="Email">
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="mobile">Mobile No</label><br>
+                <input required type="text" name="mobile" class="form-control" ngModel placeholder="Mobile No">
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="city">City</label><br>
+                <input required type="text" name="city" class="form-control" ngModel placeholder="City">
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="bloodgroup">BloodGroup</label><br>
+                <select name="blood group" id="bgroup">
+                    <option>Select A Blood Group</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select></div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="password">Password</label><br>
+                <input required type="text" name="password" class="form-control" ngModel placeholder="Password">
+            </div>
+            <pre></pre>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>

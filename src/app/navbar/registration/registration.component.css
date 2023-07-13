@@ -1,0 +1,19 @@
+
+div{
+    text-align: center;
+    background-color: rgb(51, 243, 124);
+}
+label{
+    text-align: left;
+}
+.alert.danger{
+    color: white;
+}
+button{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    height: 36px;
+    width: 76px;
+    cursor: pointer;
+}
